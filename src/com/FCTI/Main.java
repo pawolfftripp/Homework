@@ -75,5 +75,6 @@ public class Main {
         {
             System.out.printf("It appears you are looking for a %s, our %s section is over here...", modelRequest, vehicleInv.get(modelRequest));
         }
+        userInput.close();
     }
 }
